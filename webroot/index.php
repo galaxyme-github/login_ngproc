@@ -1,4 +1,6 @@
 <?php
+dd("=============>");exit;
+
 /**
  * The Front Controller for handling every request
  *
