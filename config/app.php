@@ -270,7 +270,7 @@ return [
              */
             //'port' => 'non_standard_port_number',
             'host' => 'localhost',
-            'username' => 'ngproc_db',
+            'username' => 'root',
             'password' => 'Ja6hEcQWhh%mG@$2$EITBBr3',
             'database' => 'ngproc_db',
             /*
@@ -312,7 +312,7 @@ return [
             'driver' => Mysql::class,
             'persistent' => false,
             'host' => 'localhost',
-            'username' => 'ngproc_db',
+            'username' => 'root',
             'password' => 'Ja6hEcQWhh%mG@$2$EITBBr3',
             'database' => 'ngproc_teste',
             //'port' => 'non_standard_port_number',
