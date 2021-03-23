@@ -153,6 +153,7 @@ ConnectionManager::setConfig(Configure::consume('Datasources'));
 if($_SERVER['HTTP_HOST'] == 'dev.ngproc.com.br'){
     ConnectionManager::alias('test', 'default');
 }
+dd("wwww");exit;
 TransportFactory::setConfig(Configure::consume('EmailTransport'));
 Email::setConfig(Configure::consume('Email'));
 Log::setConfig(Configure::consume('Log'));
