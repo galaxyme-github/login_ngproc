@@ -1,5 +1,5 @@
 <?php
-dd("=============>");exit;
+print_r("=============>");exit;
 
 /**
  * The Front Controller for handling every request
