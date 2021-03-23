@@ -1,6 +1,4 @@
 <?php
-print_r("=============>");exit;
-
 /**
  * The Front Controller for handling every request
  *
@@ -18,9 +16,8 @@ print_r("=============>");exit;
  */
 
 // Check platform requirements
-dd("=============>");exit;
 require dirname(__DIR__) . '/config/requirements.php';
-dd("=============>");exit;
+print_r("=============>");exit;
 // For built-in server
 if (PHP_SAPI === 'cli-server') {
     $_SERVER['PHP_SELF'] = '/' . basename(__FILE__);
