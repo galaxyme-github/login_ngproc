@@ -1,0 +1,1 @@
+https://ws.sandbox.pagseguro.uol.com.br/v3/transactions/?token=9481E3F6B59042C19C66B241A13D8511&email=aleitao%40ngproc.com.br&currency=BRL&itemId1=1&itemQuantity1=1&itemDescription1=Cotacao%3A+Tenis+Adidas+Fem+-+Pedido%3A+211&itemAmount1=7.00&reference=211

@@ -1,0 +1,149 @@
+body,
+* {
+    font-family: 'Gotham', sans-serif !important;
+    font-size: 15px;
+}
+
+.login-page,
+.register-page {
+    height: auto;
+    background: #232A30;
+}
+
+div.login-box-body h1 {
+    text-align: center;
+    margin-bottom: 42px;
+    margin-top: 29px;
+    font-size: 25px;
+    font-weight: 'Gotham';
+}
+
+.icheckbox_square-blue {
+    margin-right: 7px;
+}
+
+.btn-registrar-et5 {
+    margin-top: 26px !important;
+}
+
+.h1-et5 {
+    margin-top: 5px !important;
+    margin-bottom: 10px !important;
+}
+
+.iradio_square-blue {
+    margin-right: 5px;
+}
+
+
+.linha-titulo {
+    border-bottom: 1px solid #D0D2E1;
+}
+
+.register-subtitle {
+    font-size: 18px;
+    margin-top: 33px;
+}
+
+.opcoes-cliente {
+    margin-top: 17px;
+}
+
+.btn-avancar {
+    margin-top: 73px;
+}
+
+.btn-prosseguir {
+    margin-top: 35px;
+}
+
+.btn-prosseguir-et4 {
+    margin-top: 70px;
+}
+
+.form-control {
+    border-radius: 36px;
+}
+
+.register-login {}
+
+.row-lembrarsenha {
+    margin-top: 8px;
+}
+.btn-login-custom {
+    font-size: 15px;
+    margin-top: 29px;
+}
+
+.btn.btn-flat {
+    border-radius: 28px;
+}
+
+.form-etapa3 {
+    margin-top: 34px;
+}
+
+.form-etapa4 {
+    margin-top: 34px;
+}
+
+.btn-primary {
+    background-color: #004268;
+}
+
+.login-box-et5 {
+    padding-top: 2px;
+}
+
+.h3-et5 {
+    margin-top: 2px;
+    font-size: 18px;
+}
+
+.login-banner {
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+@media only screen and (max-width: 600px) {
+    .login-banner {
+        background-position-y: -80px;
+    }
+    .login-container>.row> .col-md-6.mobile {
+        height: 15em;
+        padding: 0;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .login-container {
+        width: 720px;
+        margin: 7% auto;
+    }
+ 
+  
+}
+@media only screen and (min-width: 600px) {
+    .login-container>.row>.col-md-6 {
+        height: 450px;
+        padding: 0;
+    }
+}
+
+
+.login-box-body,
+.login-banner {
+    height: 106%;
+    padding-right: 42px;
+    padding-left: 42px;
+}
+
+
+a {
+color:gray;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+        margin-bottom: -22px;
+}

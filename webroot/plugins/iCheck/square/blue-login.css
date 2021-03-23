@@ -1,0 +1,63 @@
+/* RESETANDO O PLUGIN iCheck
+----------------------------------- */
+.icheckbox_square-blue,
+.iradio_square-blue {
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    width: 16px;
+    height: 16px;
+    background: url(blue170x16.png) no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+.icheckbox_square-blue {
+    background-position: 0 0;
+}
+    .icheckbox_square-blue.hover {
+        background-position: -17px 0;
+    }
+    .icheckbox_square-blue.checked {
+        background-position: -34px 0;
+    }
+    .icheckbox_square-blue.disabled {
+        background-position: -51px 0;
+        cursor: default;
+    }
+    .icheckbox_square-blue.checked.disabled {
+        background-position: -68px 0;
+    }
+
+.iradio_square-blue {
+    background-position: -120px 0;
+}
+    .iradio_square-blue.hover {
+        background-position: -144px 0;
+    }
+    .iradio_square-blue.checked {
+        background-position: -168px 0;
+    }
+    .iradio_square-blue.disabled {
+        background-position: -192px 0;
+        cursor: default;
+    }
+    .iradio_square-blue.checked.disabled {
+        background-position: -216px 0;
+    }
+
+/* Retina support */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (-moz-min-device-pixel-ratio: 1.5),
+       only screen and (-o-min-device-pixel-ratio: 3/2),
+       only screen and (min-device-pixel-ratio: 1.5) {
+    .icheckbox_square-blue,
+    .iradio_square-blue {
+        background-image: url(blue170x16.png);
+        -webkit-background-size: 170px 17px;
+        background-size: 170px 17px;
+    }
+}
+
