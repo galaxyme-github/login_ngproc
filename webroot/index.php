@@ -16,6 +16,7 @@
  */
 
 // Check platform requirements
+dd("=============>");exit;
 require dirname(__DIR__) . '/config/requirements.php';
 dd("=============>");exit;
 // For built-in server
